@@ -1,0 +1,479 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "todo",
+        "description": "todo",
+        "isExtraImport": true,
+        "detail": "todo",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "django_todo.asgi",
+        "description": "django_todo.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "django_todo.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-3jgu@zspy&zdlz1sj#n9wohe&np1ksqcsi@l$djy*hq^s*(q3#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-3jgu@zspy&zdlz1sj#n9wohe&np1ksqcsi@l$djy*hq^s*(q3#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'todo'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'todo'\n]\nMIDDLEWARE = [",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'django_todo.urls'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "ROOT_URLCONF = 'django_todo.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'django_todo.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "django_todo.settings",
+        "description": "django_todo.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "django_todo.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "django_todo.urls",
+        "description": "django_todo.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', views.get_todo_list, name='get_todo_list'),\n    path('add', views.add_item, name='add'),\n    path('edit/<item_id>', views.edit_item, name='edit'),\n    path('toggle/<item_id>', views.toggle_item, name='toggle'),\n    path('delete/<item_id>', views.delete_item, name='delete'),\n]",
+        "detail": "django_todo.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "django_todo.wsgi",
+        "description": "django_todo.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "django_todo.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "todo.migrations.0001_initial",
+        "description": "todo.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Item',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50)),",
+        "detail": "todo.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "TodoConfig",
+        "kind": 6,
+        "importPath": "todo.apps",
+        "description": "todo.apps",
+        "peekOfCode": "class TodoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'todo'",
+        "detail": "todo.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ItemForm",
+        "kind": 6,
+        "importPath": "todo.forms",
+        "description": "todo.forms",
+        "peekOfCode": "class ItemForm(forms.ModelForm):\n    class Meta:\n        model = Item\n        fields = ['name', 'done']",
+        "detail": "todo.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "todo.models",
+        "description": "todo.models",
+        "peekOfCode": "class Item(models.Model):\n    name = models.CharField(max_length=50, null=False, blank=False)\n    done = models.BooleanField(null=False, blank=False, default=False)\n    def __str__(self):\n        return self.name",
+        "detail": "todo.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestItemForm",
+        "kind": 6,
+        "importPath": "todo.test_forms",
+        "description": "todo.test_forms",
+        "peekOfCode": "class TestItemForm(TestCase):\n    def test_item_name_is_required(self):\n        form = ItemForm({'name': ''})\n        self.assertFalse(form.is_valid())\n        self.assertIn('name', form.errors.keys())\n        self.assertEqual(form.errors['name'][0], 'This field is required.')\n    def test_done_field_is_not_required(self):\n        form = ItemForm({'name': 'Test Todo Item'})\n        self.assertTrue(form.is_valid())\n    def test_fields_are_explicit_in_form_metaclass(self):",
+        "detail": "todo.test_forms",
+        "documentation": {}
+    },
+    {
+        "label": "TestModels",
+        "kind": 6,
+        "importPath": "todo.test_models",
+        "description": "todo.test_models",
+        "peekOfCode": "class TestModels(TestCase):\n    def test_done_defaults_to_false(self):\n        item = Item.objects.create(name='Test Todo Item')\n        self.assertFalse(item.done)\n    def test_item_string_method_returns_name(self):\n        item = Item.objects.create(name='Test Todo Item')\n        self.assertEqual(str(item), 'Test Todo Item')",
+        "detail": "todo.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "TestViews",
+        "kind": 6,
+        "importPath": "todo.test_views",
+        "description": "todo.test_views",
+        "peekOfCode": "class TestViews(TestCase):\n    def test_get_todo_list(self):\n        response = self.client.get('/')\n        self.assertEqual(response.status_code, 200)\n        self.assertTemplateUsed(response, 'todo/todo_list.html')\n    def test_get_add_item_page(self):\n        response = self.client.get('/add')\n        self.assertEqual(response.status_code, 200)\n        self.assertTemplateUsed(response, 'todo/add_item.html')\n    def test_get_edit_item_page(self):",
+        "detail": "todo.test_views",
+        "documentation": {}
+    },
+    {
+        "label": "get_todo_list",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def get_todo_list(request):\n    items = Item.objects.all()\n    context = {\n        'items': items\n    }\n    return render(request, 'todo/todo_list.html', context)\ndef add_item(request):\n    if request.method == 'POST':\n        form = ItemForm(request.POST)\n        if form.is_valid():",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_item",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def add_item(request):\n    if request.method == 'POST':\n        form = ItemForm(request.POST)\n        if form.is_valid():\n            form.save()\n        return redirect('get_todo_list')\n    form = ItemForm()\n    context = {\n        'form': form\n    }",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "edit_item",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def edit_item(request, item_id):\n    item = get_object_or_404(Item, id=item_id)\n    if request.method == 'POST':\n        form = ItemForm(request.POST, instance=item)\n        if form.is_valid():\n            form.save()\n        return redirect('get_todo_list')\n    form = ItemForm(instance=item)\n    context = {\n        'form': form",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_item",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def toggle_item(request, item_id):\n    item = get_object_or_404(Item, id=item_id)\n    item.done = not item.done\n    item.save()\n    return redirect('get_todo_list')\ndef delete_item(request, item_id):\n    item = get_object_or_404(Item, id=item_id)\n    item.delete()\n    return redirect('get_todo_list')",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_item",
+        "kind": 2,
+        "importPath": "todo.views",
+        "description": "todo.views",
+        "peekOfCode": "def delete_item(request, item_id):\n    item = get_object_or_404(Item, id=item_id)\n    item.delete()\n    return redirect('get_todo_list')",
+        "detail": "todo.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_todo.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
